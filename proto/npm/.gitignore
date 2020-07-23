@@ -1,0 +1,5 @@
+# Node / JavaScript stuff:
+node_modules/
+proto-schemas.js
+proto-schemas.d.ts
+proto_out/
