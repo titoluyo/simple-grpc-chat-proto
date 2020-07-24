@@ -1,3 +1,5 @@
+![CI](https://github.com/jocampo/simple-grpc-chat-proto/workflows/CI/badge.svg)
+
 # Protocol Buffers
 
 This folder contains [Protobuf](https://developers.google.com/protocol-buffers/docs/overview)
