@@ -18,6 +18,7 @@
   "author": "",
   "license": "ISC",
   "repository": {
-    "url": "https://github.com/jocampo/simple-grpc-chat"
+    "url": "ssh://git@github.com:jocampo/simple-grpc-chat-proto.git",
+    "directory": "proto/npm"
   }
 }
