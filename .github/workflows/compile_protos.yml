@@ -23,11 +23,11 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Compile protos
-      with:
-        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         echo starting...
         cd proto/npm
         npm install
         npm run compileProto
         echo done
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
