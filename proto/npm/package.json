@@ -1,5 +1,5 @@
 {
-  "name": "simple-grpc-chat-proto",
+  "name": "@jocampo/simple-grpc-chat-proto",
   "version": "1.0.0",
   "description": "nondescript",
   "main": "index.js",
@@ -21,7 +21,8 @@
   "author": "",
   "license": "ISC",
   "repository": {
-    "url": "ssh://git@github.com:jocampo/simple-grpc-chat-proto.git",
+    "type": "git",
+    "url": "ssh://git@github.com/jocampo/simple-grpc-chat-proto.git",
     "directory": "proto/npm"
   }
 }
